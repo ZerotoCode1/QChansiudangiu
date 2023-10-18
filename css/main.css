@@ -31,19 +31,19 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   width: 100%;
 }
 
-.title h1 {
+.title h3 {
   z-index: 99;
   position: relative;
   color: #fff;
   font-weight: 100;
-  font-size: 70px;
+  font-size: 40px;
   padding: 0;
   margin: 0;
   line-height: 1;
   text-shadow: 0 0 10px #ff006c, 0 0 20px #ff006c, 0 0 30px #ff006c, 0 0 40px #ff417d, 0 0 70px #ff417d, 0 0 80px #ff417d, 0 0 100px #ff417d, 0 0 150px #ff417d;
 }
 
-.title h1 span {
+.title h3 span {
   z-index: 99;
   font-weight: 600;
   padding: 0;
@@ -51,7 +51,7 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   color: #ffffff;
 }
 
-.title h3 {
+.title h5 {
   z-index: 99;
   font-weight: 200;
   font-size: 26px;
