@@ -6,7 +6,9 @@
   font-family: "Montserrat";
   font-size: 12px;
 }
-
+.hidden {
+  display: none;
+}
 a.white-mode, a.white-mode:link, a.white-mode:visited, a.white-mode:active {
   font-family: "Montserrat";
   font-size: 12px;
@@ -187,3 +189,21 @@ img {
   mask-border: var(--_m);
   clip-path: polygon(-41% 0, 50% 91%, 141% 0);
 }
+
+
+.pink-button {
+  background-color: #c45a8d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover state: thay đổi màu nền khi di chuột qua nút */
+.pink-button:hover {
+  background-color: #ff69b4; }
+  .pink-button::before {
+    content: "";
+  }
+  
