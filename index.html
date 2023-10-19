@@ -37,7 +37,7 @@
   
   
       <audio id="myAudio">
-        <source src="./NgoCham-BigDaddyEmily-10326553.mp3" type="audio/mpeg">
+        <source src="./tkfk.m4a" type="audio/mp4">
       </audio>
       <script>
         window.addEventListener("click", function() {
@@ -53,20 +53,24 @@
        });
       </script>
       <script>
-        // Lấy đối tượng nút
         const btn = document.querySelector('.pink-button');
-      
-        // Bắt sự kiện hover
         btn.addEventListener('mouseenter', function() {
-          button.textContent = "Siu mê QChan "; // Thay đổi nội dung khi hover
+          button.textContent = "Siu mê QChan "; 
         });
-      
-        // Bắt sự kiện rời chuột
         button.addEventListener('mouseleave', function() {
-          button.textContent = "Click vào ây tui bảo nè"; // Thay đổi nội dung khi rời chuột
+          button.textContent = "Click vào ây tui bảo nè"; 
         });
       </script>
-
+          
+          <script>
+            const audio = document.getElementById("myAudio");
+            audio.addEventListener("ended", function() {
+              setTimeout(function(){
+                window.location.href = 'https://zerotocode1.github.io/Qchancucdangiu/';
+              },500)
+                // Đổi URL thành trang web bạn muốn chuyển đến
+            });
+        </script>
     </div>
   
   </body>
